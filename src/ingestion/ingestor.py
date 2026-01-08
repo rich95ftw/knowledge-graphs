@@ -25,7 +25,7 @@ class Ingestor:
     Base `Ingestor` Class with common methods. 
     Can be specialized by source.
     """ 
-    def ___init__(self, source: Source):
+    def __init__(self, source: Source):
         self.source = source
     
     @abstractmethod
